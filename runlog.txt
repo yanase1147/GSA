@@ -1,0 +1,119 @@
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "C:\Users\takashi-yanase\AppData\Local\miniconda3\Lib\site-packages\conda\exception_handler.py", line 30, in __call__
+        return func(*args, **kwargs)
+      File "C:\Users\takashi-yanase\AppData\Local\miniconda3\Lib\site-packages\conda\cli\main.py", line 62, in main_subshell
+        exit_code = do_call(args, parser)
+      File "C:\Users\takashi-yanase\AppData\Local\miniconda3\Lib\site-packages\conda\cli\conda_argparse.py", line 205, in do_call
+        result = getattr(module, func_name)(args, parser)
+      File "C:\Users\takashi-yanase\AppData\Local\miniconda3\Lib\site-packages\conda\cli\main_run.py", line 135, in execute
+        print(response.stdout, file=sys.stdout, end="")
+        ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    UnicodeEncodeError: 'cp932' codec can't encode character '\ufffd' in position 92: illegal multibyte sequence
+
+`$ C:\Users\takashi-yanase\AppData\Local\miniconda3\Scripts\conda-script.py run -n pypsa-gsa python surrogate_gsa.py`
+
+  environment variables:
+     BUNDLED_DEBUGPY_PATH=c:\Users\takashi-yanase\.vscode\extensions\ms-
+                          python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy
+                 CIO_TEST=<not set>
+                CONDA_EXE=C:\Users\takashi-
+                          yanase\AppData\Local\miniconda3\condabin\..\Scripts\conda.exe
+               CONDA_EXES="C:\Users\takashi-
+                          yanase\AppData\Local\miniconda3\condabin\..\Scripts\conda.exe"
+               CONDA_ROOT=C:\Users\takashi-yanase\AppData\Local\miniconda3
+           CURL_CA_BUNDLE=<not set>
+                 HOMEPATH=\Users\takashi-yanase
+               LD_PRELOAD=<not set>
+      MIC_LD_LIBRARY_PATH=C:\Program Files (x86)\Common Files\Intel\Shared
+                          Libraries\compiler\lib\intel64_win_mic
+                     PATH=c:\Users\takashi-
+                          yanase\AppData\Roaming\Code\User\globalStorage\github.copilot-
+                          chat\debugCommand;c:\Users\takashi-
+                          yanase\AppData\Roaming\Code\User\globalStorage\github.copilot-
+                          chat\copilotCli;C:\gurobi1203\win64\bin;C:\Program
+                          Files\IBM\ILOG\CPLEX_Studio2212\opl\bin\x64_win64;C:\Program
+                          Files\IBM\ILOG\CPLEX_Studio2212\opl\oplide\;C:\Program
+                          Files\IBM\ILOG\CPLEX_Studio2212\cplex\bin\x64_win64;C:\Program
+                          Files\IBM\ILOG\CPLEX_Studio2212\cpoptimizer\bin\x64_win64;C:\Program
+                          Files (x86)\Common Files\Intel\Shared
+                          Files\fortran\bin\Intel64;C:\Program Files (x86)\Common
+                          Files\Intel\Shared Libraries\redist\intel64_win\mpirt;C:\Program Files
+                          (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;
+                          C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\Sys
+                          tem32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program
+                          Files\dotnet\;C:\Program Files\Microsoft SQL
+                          Server\110\Tools\Binn\;C:\ETAP 2102\;C:\ETAP
+                          2102\ThirdParty\Python\Python384\;C:\ETAP
+                          2102\ThirdParty\Python\Python384\Scripts\;C:\Program
+                          Files\Git\cmd;C:\Program Files\MATLAB\R2024b\bin;C:\Program
+                          Files\Tailscale\;C:\Program Files\nodejs\;C:\Users\takashi-
+                          yanase\AppData\Local\miniconda3;C:\Users\takashi-yanase\AppData\Local\
+                          miniconda3\Library\mingw-w64\bin;C:\Users\takashi-
+                          yanase\AppData\Local\miniconda3\Library\usr\bin;C:\Users\takashi-
+                          yanase\AppData\Local\miniconda3\Library\bin;C:\Users\takashi-
+                          yanase\AppData\Local\miniconda3\Scripts;C:\Users\takashi-
+                          yanase\AppData\Local\Microsoft\WindowsApps;C:\Users\takashi-
+                          yanase\AppData\Roaming\Programs\Zero Install;C:\Users\takashi-
+                          yanase\AppData\Local\GitHubDesktop\bin;C:\Users\takashi-
+                          yanase\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\takashi-
+                          yanase\AppData\Local\Microsoft\WindowsApps;C:\Program
+                          Files\Java\jdk-25\bin;C:\glpk-4.65\w64;C:\Users\takashi-
+                          yanase\AppData\Roaming\npm;c:\Users\takashi-
+                          yanase\.vscode\extensions\ms-
+                          python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts
+             PSMODULEPATH=C:\Users\takashi-yanase\Documents\WindowsPowerShell\Modules;C:\Program
+                          Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\
+                          v1.0\Modules
+            PYTHONSTARTUP=c:\Users\takashi-yanase\AppData\Roaming\Code\User\workspaceStorage\bec
+                          52ee6848d0f7f8c0e9380528d099d\ms-python.python\pythonrc.py
+        PYTHON_BASIC_REPL=1
+       REQUESTS_CA_BUNDLE=<not set>
+            SSL_CERT_FILE=<not set>
+
+     active environment : None
+       user config file : C:\Users\takashi-yanase\.condarc
+ populated config files : C:\Users\takashi-yanase\AppData\Local\miniconda3\.condarc
+          conda version : 26.1.1
+    conda-build version : not installed
+         python version : 3.13.9.final.0
+                 solver : libmamba (default)
+       virtual packages : __archspec=1=icelake
+                          __conda=26.1.1=0
+                          __win=10.0.26200=0
+       base environment : C:\Users\takashi-yanase\AppData\Local\miniconda3  (writable)
+      conda av data dir : C:\Users\takashi-yanase\AppData\Local\miniconda3\etc\conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/win-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/win-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+                          https://repo.anaconda.com/pkgs/msys2/win-64
+                          https://repo.anaconda.com/pkgs/msys2/noarch
+          package cache : C:\Users\takashi-yanase\AppData\Local\miniconda3\pkgs
+                          C:\Users\takashi-yanase\.conda\pkgs
+                          C:\Users\takashi-yanase\AppData\Local\conda\conda\pkgs
+       envs directories : C:\Users\takashi-yanase\AppData\Local\miniconda3\envs
+                          C:\Users\takashi-yanase\.conda\envs
+                          C:\Users\takashi-yanase\AppData\Local\conda\conda\envs
+    temporary directory : C:\Users\TAKASH~1\AppData\Local\Temp
+               platform : win-64
+             user-agent : conda/26.1.1 requests/2.34.2 CPython/3.13.9 Windows/11 Windows/10.0.26200 solver/libmamba conda-libmamba-solver/25.4.0 libmambapy/2.3.2
+          administrator : False
+             netrc file : None
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+If you suspect this error is being caused by a malfunctioning plugin,
+consider using the --no-plugins option to turn off plugins.
+
+Example: conda --no-plugins install <package>
+
+Alternatively, you can set the CONDA_NO_PLUGINS environment variable on
+the command line to run the command without plugins enabled.
+
+Example: CONDA_NO_PLUGINS=true conda install <package>
+
